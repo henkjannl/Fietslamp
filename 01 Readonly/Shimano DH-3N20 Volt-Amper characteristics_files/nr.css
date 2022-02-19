@@ -1,0 +1,98 @@
+body {background-color:black; color:silver; margin-top:2px}
+body a {color:white}
+
+#logo {text-align:center; z-index:1; margin-top:0px; margin-bottom:3px}
+
+#menu1 {font-weight:bold; z-index:3; margin-bottom:0px}
+#menu1 a {color:black; background-color:#806854;
+          text-decoration:none;
+          margin-left:5px; margin-bottom:0px; padding:4px; padding-top:2px; padding-bottom:0px;
+          border:1px outset #806854; border-bottom:none; border-top-left-radius:3px; border-top-right-radius:3px;}
+#menu1 a:hover {color:white; text-decoration:underline}
+#menu1 #vyber1 {color:darkblue; background-color:#d8c098;
+                padding-bottom:1px; z-index:6;
+                border:1px outset #d8c098; border-bottom:1px solid #d8b898}
+
+#menu2 {color:#886850; background-color:#d8c098;
+        padding-top:4px; padding-bottom:4px; padding-left:8px; padding-right:8px;
+        margin-top:0px; margin-bottom:0px;
+        border:1px outset #d8c098; border-top-left-radius:3px; border-top-right-radius:3px;
+        z-index:5}
+#menu2 a {color:black; text-decoration:none; white-space:nowrap;
+          margin:1px;
+          padding:1px; padding-left:4px; padding-right:4px}
+#menu2 a:hover {text-decoration:underline}
+#menu2 #vyber2 {color:darkblue; background-color:#ffffe0;
+                margin:0px;
+                border:1px inset #d8c098; border-radius:4px}
+
+#vlajky {float:right}
+#vlajky img {border:none}
+
+#obsah {color:black; background-color:#ffffe0;
+        margin-top:0px; margin-bottom:10px;
+        padding:8px; padding-top:1px; padding-bottom:20px}
+#obsah h1, #obsah h2, #obsah h3 {margin-top:25px; margin-bottom:6px; clear:both; text-indent:8px}
+#obsah h4 {margin:4px}
+#obsah h1 {font-size:180%; margin-top:10px; text-align:center}
+#obsah p, #obsah .odsazeny {text-indent:8px; margin-top:5px; margin-bottom:9px}
+#obsah .neodsazeny {text-indent:0px}
+#obsah ul, #obsah ol {margin-top:5px; margin-bottom:9px}
+#obsah a {color:blue; text-decoration:underline}
+#obsah a:active {color:green; text-decoration:underline}
+#obsah a:visited {color:purple; text-decoration:underline}
+
+#obsah .obrazek {text-align:center; vertical-align:top; padding:10px; text-indent:0px}
+#obsah .obrazek img {margin:5px; vertical-align:top}
+
+#obsah .obrazeknalevo {float:left; vertical-align:top; text-indent:0px; padding-right:15px; padding-bottom:5px}
+#obsah .obrazeknalevo img {margin:0px; vertical-align:top}
+
+#obsah .obrazeknapravo {float:right; vertical-align:top; padding-left:15px; padding-bottom:5px}
+#obsah .obrazeknapravo img {margin:0px; vertical-align:top}
+
+#obsah td {vertical-align:top; color:black}
+#obsah .tab table {border:2px solid black; border-collapse:collapse; margin-left:auto; margin-right:auto; margin-top:5px; margin-bottom:9px}
+#obsah .tab th {color:black; border:2px solid black;
+                padding:3px; padding-left:6px; padding-right:6px}
+#obsah .tab td {color:black; border:1px solid black;
+                padding:3px; padding-left:6px; padding-right:6px}
+#obsah .tab .leveth {border:1px solid black; border-right:2px solid black}
+#obsah .tab .lhroh {border:2px solid black}
+#obsah .nalevo {text-align:left}
+#obsah .zpravaok {color:white; background-color:#00a000; text-align:center;
+                  padding:5px; margin-top:5px; margin-bottom:5px;
+                  border:2px solid yellow}
+#obsah .zpravachyba {color:yellow; background-color:red; font-weight:bold; text-align:center;
+                     padding:5px; margin-top:5px; margin-bottom:5px;
+                     border:2px solid yellow}
+#obsah hr {margin-top:25px; margin-bottom:25px}
+#obsah .flavortext {text-align:right; float:right; font-style:italic;
+                    margin:10px; margin-top:0px; padding:10px; padding-left:20px; padding-right:20px;
+                    background-color:#fffff0; color:darkblue; font-size:90%;
+                    border:1px solid silver}
+#obsah .credits {font-style:italic}
+#obsah blockquote {quotes:none; display:block;
+                   background-color:white; border:1px solid black; box-shadow:black 1px 2px 10px;
+                   margin:16px; padding:16px}
+#obsah abbr, #obsah acronym {border-bottom:1px dotted black}
+
+.neviditelne {display:none}
+.male {font-size:80%}
+.prispevek {border-top:1px solid black}
+.oko {border:none}
+.nastred {text-align:center; text-indent:0px}
+.komiksovy {text-align:center; text-indent:0px;
+            font-size:150%; font-weight:bold}
+.upozorneni {text-align:center; text-indent:0px; padding:10px; margin-left:5em; margin-right:5em;
+             border:1px solid darkblue; background-color:#fffff0;
+             color:darkblue}
+
+#odkazy {margin-top:10px}
+#odkazy p {margin-left:68px; text-indent:-60px}
+
+.ramecekpocitadla {text-align:center; margin:10px}
+.odstavecpocitadla {margin:0px; font-weight:bold; text-align:center}
+
+.reklama {font-size:80%; color:red; text-align:center; margin-top:15px}
+.reklama a, .reklama a:active, .reklama a:visited {color:red}
