@@ -405,7 +405,6 @@
     )
   )
 
-
   (junction (at 128.27 64.135) (diameter 0) (color 0 0 0 0)
     (uuid 10ea6c1a-dd7c-444b-85fa-06c07dd986c3)
   )
@@ -682,7 +681,7 @@
   (symbol (lib_id "Diode:1N4002") (at 116.84 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 217014c2-1ef3-4b3f-b89a-760756a34189)
-    (property "Reference" "D2" (id 0) (at 116.84 45.085 0))
+    (property "Reference" "D5" (id 0) (at 116.84 45.085 0))
     (property "Value" "1N4002" (id 1) (at 116.84 47.625 0))
     (property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal" (id 2) (at 116.84 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -716,7 +715,7 @@
   (symbol (lib_id "pspice:DIODE") (at 84.455 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 34392292-7065-417e-b176-902ff9b9f131)
-    (property "Reference" "D?" (id 0) (at 88.265 68.5799 90)
+    (property "Reference" "D3" (id 0) (at 88.265 68.5799 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DIODE" (id 1) (at 88.265 71.1199 90)
@@ -735,7 +734,7 @@
   (symbol (lib_id "pspice:DIODE") (at 73.66 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 35a5af30-ea08-424c-b901-e20b3af59c99)
-    (property "Reference" "D?" (id 0) (at 77.47 68.5799 90)
+    (property "Reference" "D1" (id 0) (at 77.47 68.5799 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DIODE" (id 1) (at 77.47 71.1199 90)
@@ -792,7 +791,7 @@
   (symbol (lib_id "Device:LED") (at 163.83 69.215 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5ca767fe-178d-4bd1-9a62-3311f61d1ae1)
-    (property "Reference" "D4" (id 0) (at 167.64 69.5324 90)
+    (property "Reference" "D7" (id 0) (at 167.64 69.5324 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (id 1) (at 167.64 72.0724 90)
@@ -811,7 +810,7 @@
   (symbol (lib_id "pspice:DIODE") (at 73.66 81.915 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5ddfb6a2-cd16-4b75-922d-72269a46826b)
-    (property "Reference" "D?" (id 0) (at 77.47 80.6449 90)
+    (property "Reference" "D2" (id 0) (at 77.47 80.6449 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DIODE" (id 1) (at 77.47 83.1849 90)
@@ -830,7 +829,7 @@
   (symbol (lib_id "pspice:DIODE") (at 84.455 81.915 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5dfab41b-35e0-4bcc-964d-616bf1ed5c2b)
-    (property "Reference" "D?" (id 0) (at 88.265 80.6449 90)
+    (property "Reference" "D4" (id 0) (at 88.265 80.6449 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DIODE" (id 1) (at 88.265 83.1849 90)
@@ -849,7 +848,7 @@
   (symbol (lib_id "Diode:1N4002") (at 138.43 70.485 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid af0141e3-a63e-4f45-a945-21b8388e2d2f)
-    (property "Reference" "D3" (id 0) (at 141.605 69.2149 90)
+    (property "Reference" "D6" (id 0) (at 141.605 69.2149 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4002" (id 1) (at 141.605 71.7549 90)
@@ -917,26 +916,26 @@
     (path "/54a0fbe1-a3d1-444a-8ad6-295accba020a"
       (reference "C3") (unit 1) (value "1uF") (footprint "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal")
     )
-    (path "/217014c2-1ef3-4b3f-b89a-760756a34189"
-      (reference "D2") (unit 1) (value "1N4002") (footprint "Diode_THT:D_T-1_P5.08mm_Horizontal")
-    )
-    (path "/af0141e3-a63e-4f45-a945-21b8388e2d2f"
-      (reference "D3") (unit 1) (value "1N4002") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-    )
-    (path "/5ca767fe-178d-4bd1-9a62-3311f61d1ae1"
-      (reference "D4") (unit 1) (value "LED") (footprint "")
-    )
-    (path "/34392292-7065-417e-b176-902ff9b9f131"
-      (reference "D?") (unit 1) (value "DIODE") (footprint "")
-    )
     (path "/35a5af30-ea08-424c-b901-e20b3af59c99"
-      (reference "D?") (unit 1) (value "DIODE") (footprint "")
+      (reference "D1") (unit 1) (value "DIODE") (footprint "")
     )
     (path "/5ddfb6a2-cd16-4b75-922d-72269a46826b"
-      (reference "D?") (unit 1) (value "DIODE") (footprint "")
+      (reference "D2") (unit 1) (value "DIODE") (footprint "")
+    )
+    (path "/34392292-7065-417e-b176-902ff9b9f131"
+      (reference "D3") (unit 1) (value "DIODE") (footprint "")
     )
     (path "/5dfab41b-35e0-4bcc-964d-616bf1ed5c2b"
-      (reference "D?") (unit 1) (value "DIODE") (footprint "")
+      (reference "D4") (unit 1) (value "DIODE") (footprint "")
+    )
+    (path "/217014c2-1ef3-4b3f-b89a-760756a34189"
+      (reference "D5") (unit 1) (value "1N4002") (footprint "Diode_THT:D_T-1_P5.08mm_Horizontal")
+    )
+    (path "/af0141e3-a63e-4f45-a945-21b8388e2d2f"
+      (reference "D6") (unit 1) (value "1N4002") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/5ca767fe-178d-4bd1-9a62-3311f61d1ae1"
+      (reference "D7") (unit 1) (value "LED") (footprint "")
     )
     (path "/3bc802c5-99dd-439b-849d-88d55fdb1923"
       (reference "R1") (unit 1) (value "330") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical")
