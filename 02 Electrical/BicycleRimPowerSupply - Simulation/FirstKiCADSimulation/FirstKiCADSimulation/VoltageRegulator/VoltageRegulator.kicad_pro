@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "FirstKiCADSimulation.kicad_pro",
+    "filename": "VoltageRegulator.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -307,7 +307,7 @@
         "version": 0
       },
       "model_mode": 4,
-      "workbook_filename": "FirstKiCADSimulation.wbk"
+      "workbook_filename": "VoltageRegulator.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -318,7 +318,7 @@
   },
   "sheets": [
     [
-      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+      "b4f0333b-fbc2-46fc-9ecd-f549e94a6838",
       ""
     ]
   ],

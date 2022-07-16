@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "FirstKiCADSimulation.kicad_pro",
+    "filename": "BipolarAmplifier.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -307,7 +307,7 @@
         "version": 0
       },
       "model_mode": 4,
-      "workbook_filename": "FirstKiCADSimulation.wbk"
+      "workbook_filename": ""
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
