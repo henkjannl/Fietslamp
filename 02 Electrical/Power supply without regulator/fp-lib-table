@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Power supply without regulator")(type "KiCad")(uri "C:/Users/hj.vanderpol/Documents/GitHub/Fietslamp/02 Electrical/Power supply without regulator.pretty")(options "")(descr ""))
+)
